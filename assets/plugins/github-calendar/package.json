@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Bloggify/github-calendar.git"
+    "url": "git+ssh://git@github.com/snowflakewang/github-calendar.git"
   },
   "keywords": [
     "github",
@@ -30,9 +30,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bloggify/github-calendar/issues"
+    "url": "https://github.com/snowflakewang/github-calendar/issues"
   },
-  "homepage": "https://github.com/Bloggify/github-calendar#readme",
+  "homepage": "https://github.com/snowflakewang/github-calendar#readme",
   "dependencies": {
     "add-subtract-date": "^1.0.15",
     "elly": "^1.1.11",
@@ -63,15 +63,15 @@
             "</div>",
             "",
             "<script>",
-            "    GitHubCalendar(\".calendar\", \"your-username\");",
+            "    GitHubCalendar(\".calendar\", \"snowflakewang\");",
             "",
             "    // or enable responsive functionality:",
-            "    GitHubCalendar(\".calendar\", \"your-username\", { responsive: true });",
+            "    GitHubCalendar(\".calendar\", \"snowflakewang\", { responsive: true });",
             "",
             "    // Use a proxy",
-            "    GitHubCalendar(\".calendar\", \"your-username\", {",
-            "       proxy (username) {",
-            "         return fetch(`https://your-proxy.com/github?user=${username}`)",
+            "    GitHubCalendar(\".calendar\", \"snowflakewang\", {",
+            "       proxy (snowflakewang) {",
+            "         return fetch(`https://your-proxy.com/github?user=${snowflakewang}`)",
             "       }",
             "    }).then(r => r.text())",
             "</script>"
